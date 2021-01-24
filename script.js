@@ -14,6 +14,9 @@ addButton.onclick = function(){
     spanText.textContent(item);
     liItem.appendChild(delButton);
     delButton.textContent('delete');
-    
+
+    delButton.onclick = function(){
+        list.remove(listItem);
+    }
 
 }
