@@ -10,5 +10,10 @@ addButton.onclick = function(){
     const spanText = document.createElement(`span`);
     const delButton = document.createElement(`button`);
 
+    liItem.appendChild(spanText);
+    spanText.textContent(item);
+    liItem.appendChild(delButton);
+    delButton.textContent('delete');
+    
 
 }
