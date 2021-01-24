@@ -6,6 +6,9 @@ addButton.onclick = function(){
     let item = input.value;
     input.value = '';
 
-    
+    const liItem = document.createElement(`li`);
+    const spanText = document.createElement(`span`);
+    const delButton = document.createElement(`button`);
+
 
 }
